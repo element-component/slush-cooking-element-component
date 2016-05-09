@@ -13,7 +13,7 @@ npm i <%= name %> -D
 ```javascript
 import Vue from 'vue'
 import <%= ComponentName %> from '<%= name %>'
-import '<%= name %>/dist/style.css'
+import 'element-theme-default'
 
 Vue.use(<%= ComponentName %>)
 ```

@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "element-toolbox watch",
     "dist": "element-toolbox build",
-    "test": "element-toolbox test --single-run"
+    "test": "element-toolbox test"
   },<% if (github) { %>
   "repository": {
     "type": "git",
