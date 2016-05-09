@@ -1,0 +1,27 @@
+{
+  "name": "slush-cooking-element-component",
+  "version": "0.0.0",
+  "description": "A cooking generator.",
+  "keywords": [
+    "slush-cooking-element-component",
+    "cooking",
+    "slushgenerator"
+  ],
+  "scripts": {
+    "dev": "cooking watch",
+    "dist": "cooking build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/element-component/slush-cooking-element-component.git"
+  },
+  "homepage": "https://github.com/element-component/slush-cooking-element-component#readme",
+  "bugs": {
+    "url": "https://github.com/element-component/slush-cooking-element-component/issues"
+  },
+  "author": "qingwei-li<qingwei.li@ele.me>",
+  "license": "MIT",
+  "dependencies": {
+    "pascalcase": "^0.1.1"
+  }
+}

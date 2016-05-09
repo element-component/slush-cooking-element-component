@@ -1,0 +1,28 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "description": "<%= description %>",
+  "private": true,
+  "keywords": [
+    "element",
+    "vue",
+    "component"
+  ],
+  "scripts": {
+    "dev": "element-toolbox watch",
+    "dist": "element-toolbox build",
+    "test": "element-toolbox test --single-run"
+  },<% if (github) { %>
+  "repository": {
+    "type": "git",
+    "url": "git+<%= github %>.git"
+  },
+  "homepage": "<%= github %>#readme",
+  "bugs": {
+    "url": "<%= github %>/issues"
+  },<% } %><% if (author) { %>
+  "author": "<%= author %>",<% } %>
+  "license": "<%= license %>",
+  "dependencies": {
+  }
+}
