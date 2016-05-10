@@ -2,12 +2,12 @@
   "name": "<%= name %>",
   "version": "0.0.0",
   "description": "<%= description %>",
-  "private": true,
   "keywords": [
     "element",
     "vue",
     "component"
   ],
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "element-toolbox watch",
     "dist": "element-toolbox build",
