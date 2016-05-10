@@ -45,11 +45,4 @@ cooking.add('resolveLoader.root', [
   process.env.ELEMENT_TOOLBOX
 ]);
 
-cooking.add('postcss', function () {
-  return [
-    require('postcss-bem'),
-    require('postcss-cssnext')
-  ]
-});
-
 module.exports = cooking.resolve();
