@@ -39,9 +39,7 @@ cooking.add('vue.loaders.html', 'vue-html-loader!posthtml-loader');
 
 cooking.add('externals', {
   vue: 'vue',
-  vue: 'Vue',
-  'vue-clickoutside': 'vue-clickoutside',
-  'vue-clickoutside': 'VueClickoutside'
+  'vue-clickoutside': 'vue-clickoutside'
 });
 
 module.exports = cooking.resolve();
