@@ -19,7 +19,8 @@ cooking.set({
   dist: './example/build',
   template: templatePath,
   devServer: {
-    port: 8101
+    port: 8101,
+    publicPath: '/'
   },
   publicPath: '/<%= name %>/',
   extends: ['vue', 'lint']
